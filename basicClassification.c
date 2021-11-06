@@ -4,7 +4,7 @@
 /* will return if a number is prime*/
 int isPrime(int num)
 {
-    if( num==1 || num==2||num==3)
+    if(num==1||num==2||num==3)
     {
         return 1;
     }
