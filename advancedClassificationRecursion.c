@@ -1,5 +1,6 @@
 #include "NumClass.h"
 #include <stdio.h>
+#include <stdlib.h> 
 
 int mypow(int num,int power)
 {
