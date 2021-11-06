@@ -1,7 +1,7 @@
 #include "NumClass.h"
 #include <stdio.h>
 
-/* will return if a number is primeשקכ*/
+/* will return if a number is prime*/
 int isPrime(int num)
 {
     if(num==1||num==2||num==3)
