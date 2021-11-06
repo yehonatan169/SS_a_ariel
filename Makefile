@@ -4,7 +4,7 @@ OBGECT_STATIC_LIB_LOOP= basicClassification.o advancedClassificationLoop.o
 OBGECT_STATIC_LIB_RECURS= basicClassification.o advancedClassificationRecursion.o
 OBGECT_DYNAMIC_LIB_LOOP= basicClassification.o advancedClassificationLoop.o
 OBGECT_DYNAMIC_LIB_RECURS= basicClassification.o advancedClassificationRecursion.o
-FLAGS=-g -Wall
+FLAGS= -Wall -g
 
 all:loops recursives loopd recursived mains maindloop maindrec
 
