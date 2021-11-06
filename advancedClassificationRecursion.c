@@ -40,8 +40,6 @@ int reverse(int num,int digits)
     return (num%10 * mypow(10, digits-1)) + reverse(num/10,digits-1);
 }
 
-
-
 /* will return if a number is Armstrong number
 An Armstrong number is an n-digit number that is equal to the sum of the nth powers of its digits.
 For Example: 407 = 4^3 + 0^3 + 7^3 = 64 + 0 + 343 = 407
